@@ -1,0 +1,17 @@
+{
+    "name": "shader-park-td",
+    "type": "commonjs",
+    "scripts": {
+        "build": "pkg ./package.json --out-path ./dist"
+    },
+    "pkg": {
+        "scripts": "*.js"
+    },
+    "bin": "./convertSPCodeToTD.js",
+    "devDependencies": {
+        "pkg": "^4.4.9"
+    },
+    "dependencies": {
+        "shader-park-core": "https://github.com/shader-park/shader-park-core.git"
+    }
+}
