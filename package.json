@@ -2,7 +2,9 @@
     "name": "shader-park-td",
     "type": "commonjs",
     "scripts": {
-        "build": "pkg ./package.json --out-path ./dist",
+        "build": "yarn usecjs & pkg ./package.json --out-path ./dist",
+        "debug": "usecjs & pkg ./package.json --out-path ./dist --debug",
+        "usecjs": "node ./usecjs.js",
         "zip": "zip -r ./dist/shader-park-core.zip ./dist/shader-park-td-linux ./dist/shader-park-td-macos ./dist/shader-park-td-win.exe"
     },
     "pkg": {
@@ -10,9 +12,9 @@
     },
     "bin": "./convertSPCodeToTD.js",
     "devDependencies": {
-        "pkg": "^4.4.9"
+        "pkg": "^5.1.0"
     },
     "dependencies": {
-        "shader-park-core": "https://github.com/shader-park/shader-park-core.git"
+        "shader-park-core": "^0.0.24"
     }
 }
