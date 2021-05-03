@@ -788,10 +788,10 @@ set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-shader-park-core@^0.0.24:
-  version "0.0.24"
-  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.0.24.tgz#23022da708b3ca8883a8617d7d77d152a564c6c2"
-  integrity sha512-SOWn5xpOr7HbPUt0vpvkl9qnpOdEzGfF+8EgZYgDR3gPyNxzxQnHMrwgw+81i3zLPFWclmTbtcpLls6TPyZjaA==
+shader-park-core@^0.0.26:
+  version "0.0.26"
+  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.0.26.tgz#984c9960562b0c67852f011c09a5e55328295bae"
+  integrity sha512-XdD0SAUmhGSycsa25fS/X+30f57wF6a9a8s/i2icqQu6G0ZX0dWNfCENRKyj6lOPw4KFYfNBw5EUK5ApNdIR1Q==
   dependencies:
     escodegen "^1.11.1"
     esprima "^4.0.1"
