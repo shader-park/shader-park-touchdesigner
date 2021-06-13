@@ -8,6 +8,7 @@ Working file available in the dist folder.
 Write your Shader Park code in a txt file and attach it to the Shader_Park_Core component to render.
 
 **Tested on MacOS + Windows with no node.js installed**  
+For Windows this only run on Windows 8.1 and above.
 **Not yet tested on Linux**
 
 ---
