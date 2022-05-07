@@ -25,21 +25,12 @@ For Windows this only run on Windows 8.1 and above.
 ### Building from source
   
 
-The following build commands are available if you want to re-compile the node.js environment + script that converts shader park code into executable for the TouchDesigner Project.
+The following build commands are available if you want to re-compile the node.js environment + script that converts shader park code into an executable for the TouchDesigner Project.
 
 ### Project setup
 ```
 yarn install
 ```
-
-The build process requires shader-park-core.cjs.js, but by default it's importing the esm version. To fix do the following:
-
-1) Delete ```node_modules/shader-park-core/dist/shader-park-core.esm.js```  
-  
-2) Open ```node_modeules/shader-park-core/package.json``` and change "main" from:
-```"dist/shader-park-core.esm.js"``` to ```"dist/shader-park-core.cjs.js"```  
-
-  
   
 ### Compile the nodejs runtime + shader-park-core into executables in ./dist 
 ```
