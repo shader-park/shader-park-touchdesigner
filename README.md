@@ -13,6 +13,7 @@ If you use any input in your Shader Park code eg:
 let size = input();
 ```
 You will need to add a uniform with the same name (in this case ```size```) to the Vectors tab of the pbr2GLSL1 GLSL MAT.
+<img width="458" alt="image" src="https://user-images.githubusercontent.com/6014011/167264366-9ec8cd44-104c-4827-9a17-0b78d37db640.png">
 
 
 ---
