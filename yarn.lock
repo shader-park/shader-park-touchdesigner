@@ -793,10 +793,10 @@ set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-shader-park-core@^0.1.26:
-  version "0.1.26"
-  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.1.26.tgz#b8e89efc8aa675cd717ae97367fc3e9194721318"
-  integrity sha512-K9GRM6JDVl/uEW31gUMJOntbB6mO9sn8ACOXrDZjKdFvW7PE+25oC4Y06+r7vDFTqPdyHXirX9k+9Oq5ZqDelw==
+shader-park-core@^0.1.30:
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.1.30.tgz#8d537237048a58d5b6d01ca0f368b213bfcdb735"
+  integrity sha512-JWVSpCYfWR9UaixCfUx2mqtgX5G9DNc0C6cmSK/2xf/FRGKQmweJEA6pvP5ZEXV1TpiklEJig3nR+3joQfR1aw==
   dependencies:
     "@shaderfrog/glsl-parser" "^0.2.1"
     escodegen "^1.11.1"
