@@ -793,15 +793,15 @@ set-blocking@~2.0.0:
   resolved "https://registry.yarnpkg.com/set-blocking/-/set-blocking-2.0.0.tgz#045f9782d011ae9a6803ddd382b24392b3d890f7"
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
-shader-park-core@^0.1.30:
-  version "0.1.30"
-  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.1.30.tgz#8d537237048a58d5b6d01ca0f368b213bfcdb735"
-  integrity sha512-JWVSpCYfWR9UaixCfUx2mqtgX5G9DNc0C6cmSK/2xf/FRGKQmweJEA6pvP5ZEXV1TpiklEJig3nR+3joQfR1aw==
+shader-park-core@^0.1.34:
+  version "0.1.34"
+  resolved "https://registry.yarnpkg.com/shader-park-core/-/shader-park-core-0.1.34.tgz#7f134c3a13eb6abd91b6331c19e28cadc51b9bdf"
+  integrity sha512-fDa8tQY5CNyxtgdnhhaJotKF24WBlo487NSBbus9U93AAPL1bj7eDIQnT+oINvLXhk15GiIPcR5w60jAfY0sHA==
   dependencies:
     "@shaderfrog/glsl-parser" "^0.2.1"
     escodegen "^1.11.1"
     esprima "^4.0.1"
-    three "^0.138.3"
+    three "^0.146.0"
 
 signal-exit@^3.0.0:
   version "3.0.3"
@@ -933,10 +933,10 @@ tar-stream@^2.1.4:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-three@^0.138.3:
-  version "0.138.3"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.138.3.tgz#7be5153d79dcbf9e9baad82e7faf8c29edda4ed0"
-  integrity sha512-4t1cKC8gimNyJChJbaklg8W/qj3PpsLJUIFm5LIuAy/hVxxNm1ru2FGTSfbTSsuHmC/7ipsyuGKqrSAKLNtkzg==
+three@^0.146.0:
+  version "0.146.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.146.0.tgz#fd80f0d128ab4bb821a02191ae241e4e6326f17a"
+  integrity sha512-1lvNfLezN6OJ9NaFAhfX4sm5e9YCzHtaRgZ1+B4C+Hv6TibRMsuBAM5/wVKzxjpYIlMymvgsHEFrrigEfXnb2A==
 
 to-fast-properties@^2.0.0:
   version "2.0.0"
