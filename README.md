@@ -1,7 +1,7 @@
 # shader-park-touchdesigner
 Render Shader Park sculptures in TouchDesigner
 
-[![Download Latest Plugin](https://img.shields.io/badge/Download_Latest_Plugin_%E2%86%93-blank?style=for-the-badge)](https://github.com/shader-park/shader-park-touchdesigner/latest/download/Shader_Park_TD.tox)
+[![Download Latest Plugin](https://img.shields.io/badge/Download_Latest_Plugin_%E2%86%93-blank?style=for-the-badge)](https://github.com/shader-park/shader-park-touchdesigner/releases/latest/download/Shader_Park_TD.tox)
 
 ### Getting Started 🎉
 Drag and drop the .tox File into your TouchDesigner project. Place down a Text DAT and paste your Shader Park code into it. Connect the Text DAT to the Shader Park plugin to render it.
